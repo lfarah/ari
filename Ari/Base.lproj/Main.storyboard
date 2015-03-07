@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MgY-UL-Ct6">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -94,9 +95,9 @@
                                 <exclude reference="PUK-zd-vbn"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="9Bf-h3-M1f"/>
                                 <exclude reference="wtV-BI-FfV"/>
                                 <exclude reference="zMf-OK-4QP"/>
-                                <exclude reference="9Bf-h3-M1f"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -106,9 +107,9 @@
                                 <include reference="PUK-zd-vbn"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="9Bf-h3-M1f"/>
                                 <include reference="wtV-BI-FfV"/>
                                 <include reference="zMf-OK-4QP"/>
-                                <include reference="9Bf-h3-M1f"/>
                             </mask>
                         </variation>
                     </view>
@@ -132,6 +133,7 @@
                         <viewControllerLayoutGuide type="bottom" id="3iR-tk-py8"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wuZ-7t-hQk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEi-Qs-nB7">
@@ -183,9 +185,6 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="-6" y="118" width="412" height="368.5"/>
-                                </variation>
                                 <connections>
                                     <outlet property="dataSource" destination="WEU-b3-4Cu" id="lgY-jY-QW8"/>
                                     <outlet property="delegate" destination="WEU-b3-4Cu" id="21W-Us-0hE"/>
@@ -239,17 +238,17 @@
                                 <exclude reference="EbJ-7h-DVN"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="5Au-Ot-KNu"/>
                                 <exclude reference="IeT-6A-Ab6"/>
                                 <exclude reference="NCn-6b-QLX"/>
-                                <exclude reference="TAa-JO-nVe"/>
-                                <exclude reference="Wqi-jT-bzK"/>
-                                <exclude reference="gac-gy-qFb"/>
                                 <exclude reference="nVZ-70-eu3"/>
                                 <exclude reference="weV-CC-VnM"/>
                                 <exclude reference="5PO-FN-wrs"/>
                                 <exclude reference="GQD-lg-Hur"/>
                                 <exclude reference="YGN-05-FdZ"/>
-                                <exclude reference="5Au-Ot-KNu"/>
+                                <exclude reference="TAa-JO-nVe"/>
+                                <exclude reference="Wqi-jT-bzK"/>
+                                <exclude reference="gac-gy-qFb"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -260,17 +259,17 @@
                                 <include reference="EbJ-7h-DVN"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="5Au-Ot-KNu"/>
                                 <include reference="IeT-6A-Ab6"/>
                                 <include reference="NCn-6b-QLX"/>
-                                <include reference="TAa-JO-nVe"/>
-                                <include reference="Wqi-jT-bzK"/>
-                                <include reference="gac-gy-qFb"/>
                                 <include reference="nVZ-70-eu3"/>
                                 <include reference="weV-CC-VnM"/>
                                 <include reference="5PO-FN-wrs"/>
                                 <include reference="GQD-lg-Hur"/>
                                 <include reference="YGN-05-FdZ"/>
-                                <include reference="5Au-Ot-KNu"/>
+                                <include reference="TAa-JO-nVe"/>
+                                <include reference="Wqi-jT-bzK"/>
+                                <include reference="gac-gy-qFb"/>
                             </mask>
                         </variation>
                     </view>
@@ -293,6 +292,7 @@
                         <viewControllerLayoutGuide type="bottom" id="HYS-Sk-lz5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TcJ-sR-BGl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dg5-pP-2yv">
@@ -389,13 +389,13 @@
                                 <exclude reference="QQc-qR-Xjf"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="YyN-Px-Fhj"/>
-                                <exclude reference="gSj-eT-HHb"/>
-                                <exclude reference="pum-6d-87v"/>
+                                <exclude reference="NsR-uY-ifE"/>
                                 <exclude reference="8bk-BG-bVC"/>
                                 <exclude reference="Uil-nX-Il1"/>
                                 <exclude reference="mlf-pa-yqa"/>
-                                <exclude reference="NsR-uY-ifE"/>
+                                <exclude reference="YyN-Px-Fhj"/>
+                                <exclude reference="gSj-eT-HHb"/>
+                                <exclude reference="pum-6d-87v"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -404,13 +404,13 @@
                                 <include reference="QQc-qR-Xjf"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="YyN-Px-Fhj"/>
-                                <include reference="gSj-eT-HHb"/>
-                                <include reference="pum-6d-87v"/>
+                                <include reference="NsR-uY-ifE"/>
                                 <include reference="8bk-BG-bVC"/>
                                 <include reference="Uil-nX-Il1"/>
                                 <include reference="mlf-pa-yqa"/>
-                                <include reference="NsR-uY-ifE"/>
+                                <include reference="YyN-Px-Fhj"/>
+                                <include reference="gSj-eT-HHb"/>
+                                <include reference="pum-6d-87v"/>
                             </mask>
                         </variation>
                     </view>
