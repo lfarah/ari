@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C293EAA11AAB16800047E172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293EAA01AAB16800047E172 /* AppDelegate.swift */; };
-		C293EAA31AAB16800047E172 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293EAA21AAB16800047E172 /* ViewController.swift */; };
 		C293EAA61AAB16800047E172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C293EAA41AAB16800047E172 /* Main.storyboard */; };
 		C293EAA81AAB16800047E172 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C293EAA71AAB16800047E172 /* Images.xcassets */; };
 		C293EAAB1AAB16800047E172 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C293EAA91AAB16800047E172 /* LaunchScreen.xib */; };
 		C293EAB71AAB16800047E172 /* AriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293EAB61AAB16800047E172 /* AriTests.swift */; };
+		C2CB1C7C1AAB1D2B00932155 /* BankInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1C7B1AAB1D2B00932155 /* BankInfoView.swift */; };
+		C2CB1C7E1AAB1D4900932155 /* finPlanPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1C7D1AAB1D4900932155 /* finPlanPickerView.swift */; };
+		C2CB1C801AAB25CC00932155 /* InvestmentQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1C7F1AAB25CC00932155 /* InvestmentQuestionsView.swift */; };
+		C2CB1C821AAB276500932155 /* InvestmentQuestionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1C811AAB276500932155 /* InvestmentQuestionsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		C293EA9B1AAB16800047E172 /* Ari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C293EA9F1AAB16800047E172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C293EAA01AAB16800047E172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C293EAA21AAB16800047E172 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C293EAA51AAB16800047E172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C293EAA71AAB16800047E172 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C293EAAA1AAB16800047E172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C293EAB01AAB16800047E172 /* AriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C293EAB51AAB16800047E172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C293EAB61AAB16800047E172 /* AriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AriTests.swift; sourceTree = "<group>"; };
+		C2CB1C7B1AAB1D2B00932155 /* BankInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankInfoView.swift; sourceTree = "<group>"; };
+		C2CB1C7D1AAB1D4900932155 /* finPlanPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = finPlanPickerView.swift; sourceTree = "<group>"; };
+		C2CB1C7F1AAB25CC00932155 /* InvestmentQuestionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestmentQuestionsView.swift; sourceTree = "<group>"; };
+		C2CB1C811AAB276500932155 /* InvestmentQuestionsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestmentQuestionsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				C293EAA01AAB16800047E172 /* AppDelegate.swift */,
-				C293EAA21AAB16800047E172 /* ViewController.swift */,
 				C293EAA41AAB16800047E172 /* Main.storyboard */,
+				C2CB1C841AAB277C00932155 /* Views */,
+				C2CB1C831AAB276F00932155 /* Cell */,
 				C293EAA71AAB16800047E172 /* Images.xcassets */,
 				C293EAA91AAB16800047E172 /* LaunchScreen.xib */,
 				C293EA9E1AAB16800047E172 /* Supporting Files */,
@@ -110,6 +117,24 @@
 				C293EAB51AAB16800047E172 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2CB1C831AAB276F00932155 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C2CB1C811AAB276500932155 /* InvestmentQuestionsCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		C2CB1C841AAB277C00932155 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2CB1C7B1AAB1D2B00932155 /* BankInfoView.swift */,
+				C2CB1C7D1AAB1D4900932155 /* finPlanPickerView.swift */,
+				C2CB1C7F1AAB25CC00932155 /* InvestmentQuestionsView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C293EAA31AAB16800047E172 /* ViewController.swift in Sources */,
+				C2CB1C7C1AAB1D2B00932155 /* BankInfoView.swift in Sources */,
+				C2CB1C821AAB276500932155 /* InvestmentQuestionsCell.swift in Sources */,
+				C2CB1C801AAB25CC00932155 /* InvestmentQuestionsView.swift in Sources */,
 				C293EAA11AAB16800047E172 /* AppDelegate.swift in Sources */,
+				C2CB1C7E1AAB1D4900932155 /* finPlanPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +433,7 @@
 				C293EABC1AAB16800047E172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C293EABD1AAB16800047E172 /* Build configuration list for PBXNativeTarget "AriTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +442,7 @@
 				C293EABF1AAB16800047E172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
