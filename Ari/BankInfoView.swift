@@ -17,6 +17,9 @@ class BankInfoView: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        authMagicSauce()
+        
     }
 
     override func didReceiveMemoryWarning() {
