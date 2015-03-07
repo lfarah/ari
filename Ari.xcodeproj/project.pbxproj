@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18DD366E1AAB795C007ECE24 /* MagicSauce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD366C1AAB795C007ECE24 /* MagicSauce.swift */; };
+		18DD366F1AAB795C007ECE24 /* Plaid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD366D1AAB795C007ECE24 /* Plaid.swift */; };
 		C293EAA11AAB16800047E172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293EAA01AAB16800047E172 /* AppDelegate.swift */; };
 		C293EAA61AAB16800047E172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C293EAA41AAB16800047E172 /* Main.storyboard */; };
 		C293EAA81AAB16800047E172 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C293EAA71AAB16800047E172 /* Images.xcassets */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18DD366C1AAB795C007ECE24 /* MagicSauce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicSauce.swift; sourceTree = "<group>"; };
+		18DD366D1AAB795C007ECE24 /* Plaid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plaid.swift; sourceTree = "<group>"; };
 		C293EA9B1AAB16800047E172 /* Ari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C293EA9F1AAB16800047E172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C293EAA01AAB16800047E172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 		C2CB1C841AAB277C00932155 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				18DD366C1AAB795C007ECE24 /* MagicSauce.swift */,
+				18DD366D1AAB795C007ECE24 /* Plaid.swift */,
 				C2CB1C7B1AAB1D2B00932155 /* BankInfoView.swift */,
 				C2CB1C7D1AAB1D4900932155 /* finPlanPickerView.swift */,
 				C2CB1C7F1AAB25CC00932155 /* InvestmentQuestionsView.swift */,
@@ -239,9 +245,11 @@
 			files = (
 				C2CB1C7C1AAB1D2B00932155 /* BankInfoView.swift in Sources */,
 				C2CB1C821AAB276500932155 /* InvestmentQuestionsCell.swift in Sources */,
+				18DD366F1AAB795C007ECE24 /* Plaid.swift in Sources */,
 				C2CB1C801AAB25CC00932155 /* InvestmentQuestionsView.swift in Sources */,
 				C293EAA11AAB16800047E172 /* AppDelegate.swift in Sources */,
 				C2CB1C7E1AAB1D4900932155 /* finPlanPickerView.swift in Sources */,
+				18DD366E1AAB795C007ECE24 /* MagicSauce.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
