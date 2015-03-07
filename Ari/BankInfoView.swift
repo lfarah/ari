@@ -19,7 +19,10 @@ class BankInfoView: UIViewController {
         // Do any additional setup after loading the view.
         
         let vc: Plaid = Plaid()
-        vc.getTransactionData()
+       vc.getBalance()
+        
+        let cv: MagicSauce = MagicSauce()
+//        cv.authMagicSauce()
     }
 
     override func didReceiveMemoryWarning() {
