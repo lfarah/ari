@@ -552,10 +552,10 @@
             </objects>
             <point key="canvasLocation" x="3949" y="-41"/>
         </scene>
-        <!--View Controller-->
+        <!--Your Profile-->
         <scene sceneID="suk-Ou-2PD">
             <objects>
-                <viewController id="3aZ-C4-DBv" sceneMemberID="viewController">
+                <viewController id="3aZ-C4-DBv" customClass="ProfileViewController" customModule="Ari" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Urd-jV-WhB"/>
                         <viewControllerLayoutGuide type="bottom" id="xez-Gh-i4r"/>
@@ -579,6 +579,41 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5C 15.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gg5-yH-61n">
                                 <rect key="frame" x="-5" y="0.0" width="330" height="568"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="13" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKb-6O-39z">
+                                <rect key="frame" x="229" y="435" width="42" height="21"/>
+                                <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.21176470589999999" green="0.20000000000000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="52" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zve-KF-XJP">
+                                <rect key="frame" x="229" y="334" width="42" height="21"/>
+                                <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.21176470589999999" green="0.20000000000000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="77" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKy-dl-sy1">
+                                <rect key="frame" x="231" y="240" width="42" height="21"/>
+                                <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.21176470588235294" green="0.20000000000000001" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="09" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrU-QD-fM0">
+                                <rect key="frame" x="231" y="285" width="42" height="21"/>
+                                <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.21176470589999999" green="0.20000000000000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="03" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f54-99-PfC">
+                                <rect key="frame" x="229" y="382" width="42" height="21"/>
+                                <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.21176470589999999" green="0.20000000000000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -591,11 +626,18 @@
                             <constraint firstItem="9KT-PZ-JhY" firstAttribute="leading" secondItem="Bnj-sd-CjT" secondAttribute="leadingMargin" constant="-21" id="wdf-EF-jlE"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="bzU-kv-D4S"/>
+                    <navigationItem key="navigationItem" title="Your Profile" id="bzU-kv-D4S"/>
+                    <connections>
+                        <outlet property="p1" destination="eKy-dl-sy1" id="nPa-xo-THj"/>
+                        <outlet property="p2" destination="mrU-QD-fM0" id="p95-DI-MkC"/>
+                        <outlet property="p3" destination="Zve-KF-XJP" id="lle-Oq-vI8"/>
+                        <outlet property="p4" destination="f54-99-PfC" id="oBD-Pf-rP8"/>
+                        <outlet property="p5" destination="gKb-6O-39z" id="pgg-Av-GIa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cif-ff-fft" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2455" y="-611"/>
+            <point key="canvasLocation" x="2731" y="-835"/>
         </scene>
     </scenes>
     <resources>

@@ -22,7 +22,12 @@ class StocksViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let arrayStocks = ["AAPL","GOOG","GE","JNJ","MSFT","XOM"]
+        let ms = MagicSauce()
+        
+        ms.profileMagicSauce()
+        let arrayStocks = NSUserDefaults.standardUserDefaults().objectForKey("stocks") as NSArray
+
+//        let arrayStocks = ["AAPL","GOOG","GE","JNJ","MSFT","XOM"]
 
         self.getCurrentPriceForStock1(arrayStocks[0] as NSString)
         self.getCurrentPriceForStock2(arrayStocks[1] as NSString)
