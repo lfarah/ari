@@ -66,11 +66,6 @@ class Xignite: NSObject
         let postString = "IdentifierType=Symbol&Identifier=\(stock)&AdjustmentMethod=SplitOnly&EndOfDayPriceMethod=LastTrade&AsOfDate=02/6/2015&_Token=E208B2F5497C4880B593EBFC90856142"
         request.HTTPBody = postString.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: true)
         
-        //        request.setValue("globalquotes.xignite.com", forHTTPHeaderField: "Host")
-        //        request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
-        //        request.setValue("length", forHTTPHeaderField: "Content-Length")
-        
-        
         let task = NSURLSession.sharedSession().dataTaskWithRequest(request) {
             data, response, error in
             if error  != nil {
@@ -97,7 +92,6 @@ class Xignite: NSObject
     func formula() -> Double
     {
         let sum = (self.priceToday_1 / self.price30_1)-1
-
         return sum
     }
 
