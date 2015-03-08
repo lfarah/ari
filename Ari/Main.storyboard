@@ -19,7 +19,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pY9-Kc-yux" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-445.59999999999997" y="379.61333333333334"/>
+            <point key="canvasLocation" x="-622" y="287"/>
         </scene>
         <!--Login-->
         <scene sceneID="uC5-fg-iaE">
@@ -63,7 +63,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PP4-QY-WiM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-31" y="277"/>
+            <point key="canvasLocation" x="-161" y="303"/>
         </scene>
         <!--Hello View Controller-->
         <scene sceneID="d9t-Hr-Tts">
@@ -80,7 +80,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5C 5.png" translatesAutoresizingMaskIntoConstraints="NO" id="qUF-ib-IEA">
                                 <rect key="frame" x="-6" y="-15" width="333" height="583"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hn-S4-gNa">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hn-S4-gNa">
                                 <rect key="frame" x="-6" y="64" width="333" height="504"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -108,7 +108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gVk-1d-0Gg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="310" y="379"/>
+            <point key="canvasLocation" x="296" y="325"/>
         </scene>
         <!--Job Info View Controller-->
         <scene sceneID="PZs-bV-6aF">
@@ -122,10 +122,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5C 8.png" translatesAutoresizingMaskIntoConstraints="NO" id="1GH-94-1ap">
-                                <rect key="frame" x="-6" y="-17" width="332" height="599"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSz-ZM-H1j">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSz-ZM-H1j">
                                 <rect key="frame" x="-1" y="339" width="320" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="8t8-i9-EEG"/>
@@ -141,12 +138,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bSz-ZM-H1j" firstAttribute="leading" secondItem="dno-VP-lAd" secondAttribute="leadingMargin" constant="-17" id="9rE-y5-rOW"/>
-                            <constraint firstItem="1GH-94-1ap" firstAttribute="top" secondItem="dno-VP-lAd" secondAttribute="topMargin" constant="-17" id="Fp7-dA-Cd1"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="1GH-94-1ap" secondAttribute="trailing" constant="-22" id="GNI-DM-ATw"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bSz-ZM-H1j" secondAttribute="trailing" constant="-15" id="RPV-vL-cWz"/>
                             <constraint firstItem="4U5-Ui-gUf" firstAttribute="top" secondItem="bSz-ZM-H1j" secondAttribute="bottom" constant="184" id="gY1-Dw-13t"/>
-                            <constraint firstItem="1GH-94-1ap" firstAttribute="leading" secondItem="dno-VP-lAd" secondAttribute="leadingMargin" constant="-22" id="hI4-94-dkt"/>
-                            <constraint firstItem="4U5-Ui-gUf" firstAttribute="top" secondItem="1GH-94-1ap" secondAttribute="bottom" constant="-14" id="k1Z-Ls-Tvo"/>
                             <constraint firstItem="bSz-ZM-H1j" firstAttribute="top" secondItem="fNh-db-yQt" secondAttribute="bottom" constant="275" id="rdb-hP-gVj"/>
                         </constraints>
                     </view>
@@ -154,7 +147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wdi-XK-c1S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="681" y="360"/>
+            <point key="canvasLocation" x="674" y="325"/>
         </scene>
         <!--Saving Goals View Controller-->
         <scene sceneID="HxV-AW-3Qx">
@@ -212,9 +205,6 @@
                                     <segue destination="5Gu-Bq-HP4" kind="push" id="wMM-69-8yW"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Select any goals tha.png" translatesAutoresizingMaskIntoConstraints="NO" id="w1J-tw-qwf">
-                                <rect key="frame" x="18" y="72" width="284" height="43"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.88627450980392153" green="0.88627450980392153" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -300,18 +290,11 @@
                                     <segue destination="o7W-sd-Lb9" kind="push" id="I0g-JL-3zb"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5C 10.png" translatesAutoresizingMaskIntoConstraints="NO" id="U7Y-I9-qjS">
-                                <rect key="frame" x="-5" y="12" width="330" height="568"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="U7Y-I9-qjS" firstAttribute="top" secondItem="J8P-4r-0L5" secondAttribute="topMargin" constant="12" id="0hE-9Q-Hnh"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="U7Y-I9-qjS" secondAttribute="trailing" constant="-21" id="9gm-8X-Tgg"/>
                             <constraint firstItem="Nll-Xr-jAs" firstAttribute="top" secondItem="Mqd-y4-orC" secondAttribute="bottom" id="QoH-vg-q1j"/>
                             <constraint firstItem="Mqd-y4-orC" firstAttribute="leading" secondItem="J8P-4r-0L5" secondAttribute="leadingMargin" constant="-21" id="Zdb-6l-kGI"/>
-                            <constraint firstItem="Nll-Xr-jAs" firstAttribute="top" secondItem="U7Y-I9-qjS" secondAttribute="bottom" constant="-12" id="go7-5D-gsv"/>
-                            <constraint firstItem="U7Y-I9-qjS" firstAttribute="leading" secondItem="J8P-4r-0L5" secondAttribute="leadingMargin" constant="-21" id="vuO-gW-iTb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Mqd-y4-orC" secondAttribute="trailing" constant="-21" id="xws-Yk-9Hj"/>
                         </constraints>
                     </view>
@@ -339,9 +322,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5C 14.png" translatesAutoresizingMaskIntoConstraints="NO" id="gNz-Wh-Fx1">
-                                <rect key="frame" x="-5" y="0.0" width="330" height="568"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isM-tb-3id">
                                 <rect key="frame" x="143" y="434" width="62" height="21"/>
                                 <color key="backgroundColor" red="0.0030504532631559509" green="0.15488490035719057" blue="0.39313052398989901" alpha="1" colorSpace="calibratedRGB"/>
@@ -365,10 +345,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="hKd-3H-d5p" firstAttribute="top" secondItem="MHP-sF-IU6" secondAttribute="bottom" id="83B-y4-pGt"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="gNz-Wh-Fx1" secondAttribute="trailing" constant="-21" id="Yxx-zv-sp8"/>
-                            <constraint firstItem="gNz-Wh-Fx1" firstAttribute="leading" secondItem="eFc-gD-lZO" secondAttribute="leadingMargin" constant="-21" id="jV1-FF-Xxv"/>
-                            <constraint firstItem="hKd-3H-d5p" firstAttribute="top" secondItem="gNz-Wh-Fx1" secondAttribute="bottom" id="n50-j7-JNq"/>
-                            <constraint firstItem="gNz-Wh-Fx1" firstAttribute="top" secondItem="eFc-gD-lZO" secondAttribute="topMargin" id="orR-zS-Ff0"/>
                             <constraint firstItem="MHP-sF-IU6" firstAttribute="leading" secondItem="eFc-gD-lZO" secondAttribute="leadingMargin" constant="-21" id="t59-FQ-mJn"/>
                             <constraint firstAttribute="trailingMargin" secondItem="MHP-sF-IU6" secondAttribute="trailing" constant="-21" id="x8r-d5-hbr"/>
                         </constraints>
@@ -641,17 +617,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="5C 10.png" width="640" height="1136"/>
         <image name="5C 11.png" width="640" height="1136"/>
         <image name="5C 13.png" width="640" height="1136"/>
-        <image name="5C 14.png" width="640" height="1136"/>
         <image name="5C 15.png" width="640" height="1136"/>
         <image name="5C 17.png" width="640" height="1136"/>
         <image name="5C 18.png" width="640" height="1136"/>
         <image name="5C 4.png" width="640" height="1136"/>
         <image name="5C 5.png" width="640" height="1136"/>
-        <image name="5C 8.png" width="640" height="1136"/>
-        <image name="Select any goals tha.png" width="564" height="85"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -659,6 +631,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="ztV-7F-dfU"/>
+        <segue reference="3FI-d4-5Az"/>
     </inferredMetricsTieBreakers>
 </document>
