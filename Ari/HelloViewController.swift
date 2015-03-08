@@ -14,7 +14,8 @@ class HelloViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        var timer = NSTimer(fireDate: NSDate(timeIntervalSinceNow: 5) , interval: 5, target: self, selector: "next", userInfo: nil, repeats: false)
+        var timer = NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: Selector("next"), userInfo: nil, repeats: false)
+        
     }
     
     func next()
