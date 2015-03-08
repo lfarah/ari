@@ -31,7 +31,11 @@ class StocksViewController: UIViewController {
         self.getCurrentPriceForStock5(arrayStocks[4] as NSString)
         self.getCurrentPriceForStock6(arrayStocks[5] as NSString)
 
-    }
+        let activity = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.Gray )
+        self.view.addSubview(activity)
+        
+        activity.startAnimating()
+            }
 
     //1
     var priceToday_1:Double = 0
@@ -444,7 +448,7 @@ class StocksViewController: UIViewController {
                 let stringPrice = array2[1] as NSString
                 self.price30_5 = stringPrice.doubleValue
                 
-                let string5 = NSString(format: "%.2f %@",self.formula5(),"%")
+                let string5 = NSString(format: "%.3f %@",self.formula5(),"%")
                 self.p5.text = string5
                 println("stock5 = \(self.formula5())%")
 

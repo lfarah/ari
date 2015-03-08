@@ -25,6 +25,8 @@
 		C2261FE61AACC162004AB5E8 /* BalanceGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2261FE51AACC162004AB5E8 /* BalanceGraphViewController.swift */; };
 		C2261FE81AACCD8E004AB5E8 /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2261FE71AACCD8E004AB5E8 /* HelloViewController.swift */; };
 		C2261FEA1AACCECA004AB5E8 /* StocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2261FE91AACCECA004AB5E8 /* StocksViewController.swift */; };
+		C2261FEC1AACDD2C004AB5E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2261FEB1AACDD2C004AB5E8 /* LoginViewController.swift */; };
+		C2792DB21AACDE8C00FD29E8 /* Select any goals tha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2792DB11AACDE8C00FD29E8 /* Select any goals tha@2x.png */; };
 		C293EAA11AAB16800047E172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293EAA01AAB16800047E172 /* AppDelegate.swift */; };
 		C293EAA61AAB16800047E172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C293EAA41AAB16800047E172 /* Main.storyboard */; };
 		C293EAA81AAB16800047E172 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C293EAA71AAB16800047E172 /* Images.xcassets */; };
@@ -39,6 +41,7 @@
 		C2CB1C801AAB25CC00932155 /* InvestmentQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1C7F1AAB25CC00932155 /* InvestmentQuestionsView.swift */; };
 		C2CB1C821AAB276500932155 /* InvestmentQuestionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1C811AAB276500932155 /* InvestmentQuestionsCell.swift */; };
 		C2CB1C881AABAEF800932155 /* LevelMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1C871AABAEF800932155 /* LevelMoney.swift */; };
+		C2F1CAED1AACE03100F3F97B /* JobInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F1CAEC1AACE03100F3F97B /* JobInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,8 @@
 		C2261FE51AACC162004AB5E8 /* BalanceGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceGraphViewController.swift; sourceTree = "<group>"; };
 		C2261FE71AACCD8E004AB5E8 /* HelloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
 		C2261FE91AACCECA004AB5E8 /* StocksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StocksViewController.swift; sourceTree = "<group>"; };
+		C2261FEB1AACDD2C004AB5E8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C2792DB11AACDE8C00FD29E8 /* Select any goals tha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Select any goals tha@2x.png"; sourceTree = "<group>"; };
 		C293EA9B1AAB16800047E172 /* Ari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C293EA9F1AAB16800047E172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C293EAA01AAB16800047E172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +93,7 @@
 		C2CB1C7F1AAB25CC00932155 /* InvestmentQuestionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestmentQuestionsView.swift; sourceTree = "<group>"; };
 		C2CB1C811AAB276500932155 /* InvestmentQuestionsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestmentQuestionsCell.swift; sourceTree = "<group>"; };
 		C2CB1C871AABAEF800932155 /* LevelMoney.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelMoney.swift; sourceTree = "<group>"; };
+		C2F1CAEC1AACE03100F3F97B /* JobInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,7 @@
 				C2261FDD1AACB963004AB5E8 /* 5C 17.png */,
 				C2261FDF1AACB99C004AB5E8 /* 5C 13.png */,
 				C2261FE11AACB9D9004AB5E8 /* 5C 15@2x.png */,
+				C2792DB11AACDE8C00FD29E8 /* Select any goals tha@2x.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +151,8 @@
 			children = (
 				C293EAA01AAB16800047E172 /* AppDelegate.swift */,
 				C293EAA41AAB16800047E172 /* Main.storyboard */,
+				C2F1CAEC1AACE03100F3F97B /* JobInfoViewController.swift */,
+				C2261FEB1AACDD2C004AB5E8 /* LoginViewController.swift */,
 				C2261FE71AACCD8E004AB5E8 /* HelloViewController.swift */,
 				C2261FE51AACC162004AB5E8 /* BalanceGraphViewController.swift */,
 				C2261FE31AACBC73004AB5E8 /* SavingGoalsCell.swift */,
@@ -309,6 +318,7 @@
 				C2261FDC1AACB8F1004AB5E8 /* 5C 18.png in Resources */,
 				C2261FDA1AACB7FA004AB5E8 /* 5C 14.png in Resources */,
 				C2BB60881AACAB6F00D9C57F /* 5C 4.png in Resources */,
+				C2792DB21AACDE8C00FD29E8 /* Select any goals tha@2x.png in Resources */,
 				C2BB608E1AACAF3A00D9C57F /* 5C 7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +341,7 @@
 				C2CB1C821AAB276500932155 /* InvestmentQuestionsCell.swift in Sources */,
 				C2261FE61AACC162004AB5E8 /* BalanceGraphViewController.swift in Sources */,
 				18DD366F1AAB795C007ECE24 /* Plaid.swift in Sources */,
+				C2F1CAED1AACE03100F3F97B /* JobInfoViewController.swift in Sources */,
 				C2CB1C881AABAEF800932155 /* LevelMoney.swift in Sources */,
 				C2CB1C801AAB25CC00932155 /* InvestmentQuestionsView.swift in Sources */,
 				C293EAA11AAB16800047E172 /* AppDelegate.swift in Sources */,
@@ -339,6 +350,7 @@
 				C2261FEA1AACCECA004AB5E8 /* StocksViewController.swift in Sources */,
 				C2261FE81AACCD8E004AB5E8 /* HelloViewController.swift in Sources */,
 				C2088D731AAC4679004968FA /* waterfall.swift in Sources */,
+				C2261FEC1AACDD2C004AB5E8 /* LoginViewController.swift in Sources */,
 				C2088D711AAC16C9004968FA /* Xignite.swift in Sources */,
 				C2CB1C7E1AAB1D4900932155 /* finPlanPickerView.swift in Sources */,
 				18DD366E1AAB795C007ECE24 /* MagicSauce.swift in Sources */,

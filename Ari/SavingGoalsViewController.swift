@@ -22,12 +22,16 @@ class SavingGoalsViewController: UIViewController,UITableViewDataSource,UITableV
         
         let pc: LevelMoney = LevelMoney()
         pc.getEverything()
-        pc.getBalance()
+        pc.getBalance() 
         
         let vc: Plaid = Plaid()
         vc.getTransactionData()
     }
 
+    override func viewWillAppear(animated: Bool) {
+        navigationController?.setNavigationBarHidden(false, animated: true)
+
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

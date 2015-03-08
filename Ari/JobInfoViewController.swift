@@ -1,5 +1,5 @@
 //
-//  HelloViewController.swift
+//  JobInfoViewController.swift
 //  Ari
 //
 //  Created by Lucas Farah on 3/8/15.
@@ -8,22 +8,17 @@
 
 import UIKit
 
-class HelloViewController: UIViewController {
+class JobInfoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        var timer = NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: Selector("next"), userInfo: nil, repeats: false)
-        
-        let ms = MagicSauce()
-        ms.profileMagicSauceFixed()
-        
     }
     
-    func next()
-    {
-        self.performSegueWithIdentifier("next", sender: self)
+    override func viewWillAppear(animated: Bool) {
+        navigationController?.setNavigationBarHidden(true, animated: true)
+
     }
 
     override func didReceiveMemoryWarning() {
