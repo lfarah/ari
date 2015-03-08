@@ -23,13 +23,20 @@ class BalanceGraphViewController: UIViewController {
         
         lblBalance.text = ("\(balanceChecking + balanceSavings)")
     }
+    
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    override func viewWillAppear(animated: Bool) {
+        self.navigationItem.setHidesBackButton(true, animated: false)
 
+    }
+    
+    
+    
     /*
     // MARK: - Navigation
 

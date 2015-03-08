@@ -27,7 +27,9 @@ class HelloViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    override func viewWillAppear(animated: Bool) {
+        navigationController?.setNavigationBarHidden(true, animated: false)
+    }
     /*
     // MARK: - Navigation
 

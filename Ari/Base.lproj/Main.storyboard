@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="MgY-UL-Ct6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="MgY-UL-Ct6">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -63,7 +63,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PP4-QY-WiM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-31" y="277"/>
+            <point key="canvasLocation" x="-107" y="325"/>
         </scene>
         <!--Hello View Controller-->
         <scene sceneID="d9t-Hr-Tts">
@@ -272,10 +272,10 @@
             </objects>
             <point key="canvasLocation" x="1483" y="-49"/>
         </scene>
-        <!--View Controller-->
+        <!--Risk Tolerance View Controller-->
         <scene sceneID="Izl-nK-CfB">
             <objects>
-                <viewController id="RL8-Ni-sbj" sceneMemberID="viewController">
+                <viewController id="RL8-Ni-sbj" customClass="RiskToleranceViewController" customModule="Ari" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LPc-3s-2Q4"/>
                         <viewControllerLayoutGuide type="bottom" id="Nll-Xr-jAs"/>
@@ -311,11 +311,17 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Mqd-y4-orC" secondAttribute="trailing" constant="-21" id="xws-Yk-9Hj"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="kbT-oJ-4K8"/>
+                    <navigationItem key="navigationItem" id="kbT-oJ-4K8">
+                        <barButtonItem key="rightBarButtonItem" image="Detail Disclosure.png" id="lvH-FP-QxH">
+                            <connections>
+                                <segue destination="3aZ-C4-DBv" kind="push" id="TZa-E0-szz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rea-v1-1QQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1829" y="-47"/>
+            <point key="canvasLocation" x="1850" y="-49"/>
         </scene>
         <!--Balance Graph View Controller-->
         <scene sceneID="BGS-uJ-JmW">
@@ -332,18 +338,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5C 14.png" translatesAutoresizingMaskIntoConstraints="NO" id="gNz-Wh-Fx1">
                                 <rect key="frame" x="-5" y="0.0" width="330" height="568"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHP-sF-IU6">
-                                <rect key="frame" x="-5" y="517" width="330" height="51"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="51" id="uRk-2E-ZZr"/>
-                                </constraints>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="6AX-An-nDk" kind="push" id="GBl-tc-Ele"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isM-tb-3id">
                                 <rect key="frame" x="143" y="434" width="62" height="21"/>
                                 <color key="backgroundColor" red="0.0039215686274509803" green="0.12156862745098039" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -354,23 +348,26 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="hKd-3H-d5p" firstAttribute="top" secondItem="MHP-sF-IU6" secondAttribute="bottom" id="83B-y4-pGt"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gNz-Wh-Fx1" secondAttribute="trailing" constant="-21" id="Yxx-zv-sp8"/>
                             <constraint firstItem="gNz-Wh-Fx1" firstAttribute="leading" secondItem="eFc-gD-lZO" secondAttribute="leadingMargin" constant="-21" id="jV1-FF-Xxv"/>
                             <constraint firstItem="hKd-3H-d5p" firstAttribute="top" secondItem="gNz-Wh-Fx1" secondAttribute="bottom" id="n50-j7-JNq"/>
                             <constraint firstItem="gNz-Wh-Fx1" firstAttribute="top" secondItem="eFc-gD-lZO" secondAttribute="topMargin" id="orR-zS-Ff0"/>
-                            <constraint firstItem="MHP-sF-IU6" firstAttribute="leading" secondItem="eFc-gD-lZO" secondAttribute="leadingMargin" constant="-21" id="t59-FQ-mJn"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="MHP-sF-IU6" secondAttribute="trailing" constant="-21" id="x8r-d5-hbr"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="NxQ-Dg-iP0"/>
+                    <navigationItem key="navigationItem" id="NxQ-Dg-iP0">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="rGy-mI-rfH">
+                            <connections>
+                                <segue destination="6AX-An-nDk" kind="push" id="LgB-op-ccf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="lblBalance" destination="isM-tb-3id" id="JtY-kX-ktT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PmZ-1A-Ay8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2205" y="-49"/>
+            <point key="canvasLocation" x="2226" y="-49"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FDN-Eb-GYc">
@@ -395,9 +392,6 @@
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="3aZ-C4-DBv" kind="push" id="ztV-7F-dfU"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -411,13 +405,20 @@
                             <constraint firstAttribute="trailingMargin" secondItem="DQa-Dq-BfH" secondAttribute="trailing" constant="-21" id="oTG-Pe-Bx9"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="RXc-EN-Bk3"/>
+                    <navigationItem key="navigationItem" id="RXc-EN-Bk3">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="edI-cj-qI2"/>
+                        <barButtonItem key="rightBarButtonItem" image="Detail Disclosure.png" id="LnQ-m5-Oa5">
+                            <connections>
+                                <segue destination="ei2-JK-kgW" kind="push" id="yb2-re-JF9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JnH-Dn-vPz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2567" y="-41"/>
         </scene>
-        <!--View Controller-->
+        <!--Chart-->
         <scene sceneID="Ck4-nR-Cnp">
             <objects>
                 <viewController id="ei2-JK-kgW" sceneMemberID="viewController">
@@ -437,9 +438,6 @@
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="nvY-7V-FFa" kind="push" id="Kuw-rt-BrX"/>
-                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5C 17.png" translatesAutoresizingMaskIntoConstraints="NO" id="VBn-yp-sJV">
                                 <rect key="frame" x="-5" y="0.0" width="330" height="568"/>
@@ -456,13 +454,20 @@
                             <constraint firstItem="zo3-Ev-ETw" firstAttribute="leading" secondItem="acU-KW-ZLx" secondAttribute="leadingMargin" constant="-21" id="qFT-Op-fAf"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="3cN-ZB-Zwe"/>
+                    <navigationItem key="navigationItem" title="Chart" id="3cN-ZB-Zwe">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="tnn-hi-GcR"/>
+                        <barButtonItem key="rightBarButtonItem" image="Detail Disclosure.png" id="IkN-Cn-h3Y">
+                            <connections>
+                                <segue destination="nvY-7V-FFa" kind="push" id="Zoo-pW-X0G"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a2e-f6-6XJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3553" y="-41"/>
+            <point key="canvasLocation" x="3019" y="-331"/>
         </scene>
-        <!--View Controller-->
+        <!--Stocks-->
         <scene sceneID="ZOS-us-ywa">
             <objects>
                 <viewController id="nvY-7V-FFa" sceneMemberID="viewController">
@@ -498,11 +503,13 @@
                             <constraint firstItem="juZ-Ed-cme" firstAttribute="top" secondItem="lVL-9e-lk3" secondAttribute="bottom" id="ljf-qr-xDM"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Y1t-TZ-x9i"/>
+                    <navigationItem key="navigationItem" title="Stocks" id="Y1t-TZ-x9i">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="k4Q-eL-8Ao"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CDk-Fr-NMZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3949" y="-41"/>
+            <point key="canvasLocation" x="3479" y="-331"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="suk-Ou-2PD">
@@ -524,9 +531,6 @@
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="ei2-JK-kgW" kind="push" id="Hvd-3Q-aSm"/>
-                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5C 15.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gg5-yH-61n">
                                 <rect key="frame" x="-5" y="0.0" width="330" height="568"/>
@@ -543,11 +547,13 @@
                             <constraint firstItem="9KT-PZ-JhY" firstAttribute="leading" secondItem="Bnj-sd-CjT" secondAttribute="leadingMargin" constant="-21" id="wdf-EF-jlE"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="bzU-kv-D4S"/>
+                    <navigationItem key="navigationItem" id="bzU-kv-D4S">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="SFT-7N-OCY"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cif-ff-fft" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3031" y="-41"/>
+            <point key="canvasLocation" x="2159" y="-728"/>
         </scene>
     </scenes>
     <resources>
@@ -561,6 +567,7 @@
         <image name="5C 4.png" width="640" height="1136"/>
         <image name="5C 5.png" width="640" height="1136"/>
         <image name="5C 8.png" width="640" height="1136"/>
+        <image name="Detail Disclosure.png" width="22" height="22"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18624A611AACCFA70096CA37 /* Detail Disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = 18624A601AACCFA70096CA37 /* Detail Disclosure.png */; };
+		18624A651AACD4AA0096CA37 /* RiskToleranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18624A641AACD4AA0096CA37 /* RiskToleranceViewController.swift */; };
 		18DD366E1AAB795C007ECE24 /* MagicSauce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD366C1AAB795C007ECE24 /* MagicSauce.swift */; };
 		18DD366F1AAB795C007ECE24 /* Plaid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD366D1AAB795C007ECE24 /* Plaid.swift */; };
 		C2088D711AAC16C9004968FA /* Xignite.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2088D701AAC16C9004968FA /* Xignite.swift */; };
@@ -51,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18624A601AACCFA70096CA37 /* Detail Disclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Detail Disclosure.png"; sourceTree = "<group>"; };
+		18624A641AACD4AA0096CA37 /* RiskToleranceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiskToleranceViewController.swift; sourceTree = "<group>"; };
 		18DD366C1AAB795C007ECE24 /* MagicSauce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicSauce.swift; sourceTree = "<group>"; };
 		18DD366D1AAB795C007ECE24 /* Plaid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plaid.swift; sourceTree = "<group>"; };
 		C2088D701AAC16C9004968FA /* Xignite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Xignite.swift; sourceTree = "<group>"; };
@@ -112,6 +116,7 @@
 				C293EA9D1AAB16800047E172 /* Ari */,
 				C293EAB31AAB16800047E172 /* AriTests */,
 				C293EA9C1AAB16800047E172 /* Products */,
+				18624A601AACCFA70096CA37 /* Detail Disclosure.png */,
 				C2BB60871AACAB6F00D9C57F /* 5C 4.png */,
 				C2BB60891AACAE0A00D9C57F /* 5C 5.png */,
 				C2BB608B1AACAEB800D9C57F /* 5C 6.png */,
@@ -142,6 +147,7 @@
 			children = (
 				C293EAA01AAB16800047E172 /* AppDelegate.swift */,
 				C293EAA41AAB16800047E172 /* Main.storyboard */,
+				18624A641AACD4AA0096CA37 /* RiskToleranceViewController.swift */,
 				C2261FE71AACCD8E004AB5E8 /* HelloViewController.swift */,
 				C2261FE51AACC162004AB5E8 /* BalanceGraphViewController.swift */,
 				C2261FE31AACBC73004AB5E8 /* SavingGoalsCell.swift */,
@@ -303,6 +309,7 @@
 				C2BB608A1AACAE0A00D9C57F /* 5C 5.png in Resources */,
 				C2BB608C1AACAEB800D9C57F /* 5C 6.png in Resources */,
 				C293EAA81AAB16800047E172 /* Images.xcassets in Resources */,
+				18624A611AACCFA70096CA37 /* Detail Disclosure.png in Resources */,
 				C2261FDC1AACB8F1004AB5E8 /* 5C 18.png in Resources */,
 				C2261FDA1AACB7FA004AB5E8 /* 5C 14.png in Resources */,
 				C2BB60881AACAB6F00D9C57F /* 5C 4.png in Resources */,
@@ -329,6 +336,7 @@
 				C2261FE61AACC162004AB5E8 /* BalanceGraphViewController.swift in Sources */,
 				18DD366F1AAB795C007ECE24 /* Plaid.swift in Sources */,
 				C2CB1C881AABAEF800932155 /* LevelMoney.swift in Sources */,
+				18624A651AACD4AA0096CA37 /* RiskToleranceViewController.swift in Sources */,
 				C2CB1C801AAB25CC00932155 /* InvestmentQuestionsView.swift in Sources */,
 				C293EAA11AAB16800047E172 /* AppDelegate.swift in Sources */,
 				C2261FE41AACBC73004AB5E8 /* SavingGoalsCell.swift in Sources */,
