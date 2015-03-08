@@ -93,18 +93,27 @@ class MagicSauce: NSObject {
                             print("BIG5_Openness: ")
 
                             println(array[i]["value"] as Double)
+                            let percentage = array[i]["value"] as Double
+                            NSUserDefaults.standardUserDefaults().setDouble(percentage, forKey: "BIG5_Openness")
+                            NSUserDefaults.standardUserDefaults().synchronize()
                         }
                         else if trait == "BIG5_Neuroticism"
                         {
                             print("BIG5_Neuroticism: ")
 
                             println(array[i]["value"] as Double)
+                            let percentage = array[i]["value"] as Double
+                            NSUserDefaults.standardUserDefaults().setDouble(percentage, forKey: "BIG5_Neuroticism")
+                            NSUserDefaults.standardUserDefaults().synchronize()
                         }
                         else if trait == "BIG5_Conscientiousness"
                         {
                             print("BIG5_Conscientiousness: ")
 
                             println(array[i]["value"] as Double)
+                            let percentage = array[i]["value"] as Double
+                            NSUserDefaults.standardUserDefaults().setDouble(percentage, forKey: "BIG5_Conscientiousness")
+                            NSUserDefaults.standardUserDefaults().synchronize()
 
                         }
                         else if trait == "BIG5_Agreeableness"
@@ -112,91 +121,67 @@ class MagicSauce: NSObject {
                             print("BIG5_Agreeableness: ")
 
                             println(array[i]["value"] as Double)
+                            let percentage = array[i]["value"] as Double
+                            NSUserDefaults.standardUserDefaults().setDouble(percentage, forKey: "BIG5_Agreeableness")
+                            NSUserDefaults.standardUserDefaults().synchronize()
 
                         }
                         else if trait == "BIG5_Extraversion"
                         {
                             print("BIG5_Extraversion: ")
                             println(array[i]["value"] as Double)
-
+                            let percentage = array[i]["value"] as Double
+                            NSUserDefaults.standardUserDefaults().setDouble(percentage, forKey: "BIG5_Extraversion")
+                            NSUserDefaults.standardUserDefaults().synchronize()
                         }
-                    
                     }
-                    
-//                    for type in json {
-                    
-//BIG5_Openness
-//BIG5_Neuroticism
-//BIG5_Conscientiousness
-//BIG5_Agreeableness
-//BIG5_Extraversion
-                    //
                 }
                 else
                 {
                     // otherwise, this code is executed
                     println(jsonError)
                 }
-                
             }
-            
-        
-        
         }
-        
         task.resume()
     }
     
     func profileMagicSauce () {
 
+        let opennes = NSUserDefaults.standardUserDefaults().doubleForKey("BIG5_Openness")
+        let neuroticism =  NSUserDefaults.standardUserDefaults().doubleForKey("BIG5_Neuroticism")
+        let conscientiousness = NSUserDefaults.standardUserDefaults().doubleForKey("BIG5_Conscientiousness")
+        let agreeableness = NSUserDefaults.standardUserDefaults().doubleForKey("BIG5_Agreeableness")
+        let extraversion = NSUserDefaults.standardUserDefaults().doubleForKey("BIG5_Extraversion")
+
+        let riskiness = ((opennes * 4) + (conscientiousness * 1.5) + (extraversion * 0.5) + (neuroticism * 4))
         
-//    var  userid  = "100003107357974"
-//        
-//        var stringToken = "3r54pl6jqsrrgvrm95jku8ekmk"
-//        
-//        
-//        var request = NSMutableURLRequest(URL: NSURL(string: "http://api-v2.applymagicsauce.com/like_ids&=\(userid)")!)
-//        
-//        let session = NSURLSession.sharedSession()
-//        request.HTTPMethod = "POST"
-//        
-//        var err:NSError?
-//        request.setValue(stringToken, forHTTPHeaderField: "X-Auth-Token")
-//        request.setValue("application/json", forHTTPHeaderField: "Content-type")
-//        request.setValue("application/json", forHTTPHeaderField: "Accept")
-//        
-//        request.HTTPBody = NSJSONSerialization.dataWithJSONObject(likes, options: nil, error: &err)
-//        
-//        var task = session.dataTaskWithRequest(request, completionHandler:{data, response, error -> Void in
-//            
-//            if error != nil {
-//                println(error)
-//                
-//            } else {
-//                
-//                
-//                var jsonError: NSError?
-//                if let json = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: &jsonError) as? NSArray {
-//                    
-//                    println(json)
-//                    
-//                    
-//                } else {
-//                    
-//                    println("we are fucked")
-//                    
-//                    
-//                }
-//                
-//                
-//                
-//                
-//            }
-//            
-//        })
-//        
-//        task.resume()
-//        
+        if riskiness < 4
+        {
+            //Low risk
+            let arrayStocks = ["PSA","SPG","BXP","VNO","AVB","HCP"]
+            NSUserDefaults.standardUserDefaults().setObject(arrayStocks, forKey: "stocks")
+            NSUserDefaults.standardUserDefaults().synchronize()
+
+        }
+        else if riskiness < 7
+        {
+           //Medium risk
+            let arrayStocks = ["AAPL","GOOG","GE","JNJ","MSFT","XOM"]
+            NSUserDefaults.standardUserDefaults().setObject(arrayStocks, forKey: "stocks")
+            NSUserDefaults.standardUserDefaults().synchronize()
+           
+        }
+        else
+        {
+            //high risk
+            let arrayStocks = ["AAL","URI","AEO","DPZ","AOL","WAB"]
+            NSUserDefaults.standardUserDefaults().setObject(arrayStocks, forKey: "stocks")
+            NSUserDefaults.standardUserDefaults().synchronize()
+
+            
+        }
+        
     }
     
 }

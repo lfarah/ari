@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		18DD366E1AAB795C007ECE24 /* MagicSauce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD366C1AAB795C007ECE24 /* MagicSauce.swift */; };
 		18DD366F1AAB795C007ECE24 /* Plaid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD366D1AAB795C007ECE24 /* Plaid.swift */; };
+		C2088D711AAC16C9004968FA /* Xignite.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2088D701AAC16C9004968FA /* Xignite.swift */; };
+		C2088D731AAC4679004968FA /* waterfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2088D721AAC4679004968FA /* waterfall.swift */; };
 		C293EAA11AAB16800047E172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293EAA01AAB16800047E172 /* AppDelegate.swift */; };
 		C293EAA61AAB16800047E172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C293EAA41AAB16800047E172 /* Main.storyboard */; };
 		C293EAA81AAB16800047E172 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C293EAA71AAB16800047E172 /* Images.xcassets */; };
@@ -34,6 +36,8 @@
 /* Begin PBXFileReference section */
 		18DD366C1AAB795C007ECE24 /* MagicSauce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicSauce.swift; sourceTree = "<group>"; };
 		18DD366D1AAB795C007ECE24 /* Plaid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plaid.swift; sourceTree = "<group>"; };
+		C2088D701AAC16C9004968FA /* Xignite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Xignite.swift; sourceTree = "<group>"; };
+		C2088D721AAC4679004968FA /* waterfall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = waterfall.swift; sourceTree = "<group>"; };
 		C293EA9B1AAB16800047E172 /* Ari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C293EA9F1AAB16800047E172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C293EAA01AAB16800047E172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 			children = (
 				C293EAA01AAB16800047E172 /* AppDelegate.swift */,
 				C293EAA41AAB16800047E172 /* Main.storyboard */,
+				C2BB60861AAC701100D9C57F /* Code */,
 				C2CB1C841AAB277C00932155 /* Views */,
 				C2CB1C831AAB276F00932155 /* Cell */,
 				C293EAA71AAB16800047E172 /* Images.xcassets */,
@@ -125,6 +130,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C2BB60861AAC701100D9C57F /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				18DD366C1AAB795C007ECE24 /* MagicSauce.swift */,
+				C2088D701AAC16C9004968FA /* Xignite.swift */,
+				18DD366D1AAB795C007ECE24 /* Plaid.swift */,
+				C2CB1C871AABAEF800932155 /* LevelMoney.swift */,
+				C2088D721AAC4679004968FA /* waterfall.swift */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
 		C2CB1C831AAB276F00932155 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,9 +153,6 @@
 		C2CB1C841AAB277C00932155 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				18DD366C1AAB795C007ECE24 /* MagicSauce.swift */,
-				18DD366D1AAB795C007ECE24 /* Plaid.swift */,
-				C2CB1C871AABAEF800932155 /* LevelMoney.swift */,
 				C2CB1C7B1AAB1D2B00932155 /* BankInfoView.swift */,
 				C2CB1C7D1AAB1D4900932155 /* finPlanPickerView.swift */,
 				C2CB1C7F1AAB25CC00932155 /* InvestmentQuestionsView.swift */,
@@ -252,6 +266,8 @@
 				C2CB1C881AABAEF800932155 /* LevelMoney.swift in Sources */,
 				C2CB1C801AAB25CC00932155 /* InvestmentQuestionsView.swift in Sources */,
 				C293EAA11AAB16800047E172 /* AppDelegate.swift in Sources */,
+				C2088D731AAC4679004968FA /* waterfall.swift in Sources */,
+				C2088D711AAC16C9004968FA /* Xignite.swift in Sources */,
 				C2CB1C7E1AAB1D4900932155 /* finPlanPickerView.swift in Sources */,
 				18DD366E1AAB795C007ECE24 /* MagicSauce.swift in Sources */,
 			);

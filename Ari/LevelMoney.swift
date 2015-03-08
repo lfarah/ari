@@ -14,7 +14,6 @@ class LevelMoney: NSObject
     func getEverything()
     {
         self.getPredictions("https://api.levelmoney.com/api/v2/hackathon/get-all-transactions")
-        //self.getPredictions("https://api.levelmoney.com/api/v2/hackathon/projected-transactions-for-month")
         self.getPastTransactions("https://api.levelmoney.com/api/v2/hackathon/projected-transactions-for-month")
 
     }
@@ -178,6 +177,8 @@ class LevelMoney: NSObject
                     }
                     println("Final Income: $\(finalIncome)")
                     
+                    NSUserDefaults.standardUserDefaults().setDouble(finalIncome, forKey: "finalIncome")
+                    NSUserDefaults.standardUserDefaults().synchronize()
                     println("")
                     
                     // println("Final amount: $\(-totalIncomes)")
@@ -263,7 +264,8 @@ class LevelMoney: NSObject
 //                    println(jsonError)
 //                }
                 
-                    
+                    let wt = Waterfall()
+                    wt.wtf()
                     
                 
             }
