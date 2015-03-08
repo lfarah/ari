@@ -18,8 +18,10 @@ class BankInfoView: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        authMagicSauce()
-        
+        var vc = MagicSauce()
+        vc.authMagicSauce()
+//        vc.profileMagicSauce()
+        vc.profileMagicSauceFixed()
     }
 
     override func didReceiveMemoryWarning() {
