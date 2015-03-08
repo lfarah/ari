@@ -40,7 +40,6 @@
 		C2261FEC1AACDD2C004AB5E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2261FEB1AACDD2C004AB5E8 /* LoginViewController.swift */; };
 		C293EAA11AAB16800047E172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293EAA01AAB16800047E172 /* AppDelegate.swift */; };
 		C293EAA81AAB16800047E172 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C293EAA71AAB16800047E172 /* Images.xcassets */; };
-		C293EAAB1AAB16800047E172 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C293EAA91AAB16800047E172 /* LaunchScreen.xib */; };
 		C293EAB71AAB16800047E172 /* AriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293EAB61AAB16800047E172 /* AriTests.swift */; };
 		C2CB1C7C1AAB1D2B00932155 /* BankInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1C7B1AAB1D2B00932155 /* BankInfoView.swift */; };
 		C2CB1C821AAB276500932155 /* InvestmentQuestionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1C811AAB276500932155 /* InvestmentQuestionsCell.swift */; };
@@ -94,7 +93,6 @@
 		C293EA9F1AAB16800047E172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C293EAA01AAB16800047E172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C293EAA71AAB16800047E172 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C293EAAA1AAB16800047E172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C293EAB01AAB16800047E172 /* AriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C293EAB51AAB16800047E172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C293EAB61AAB16800047E172 /* AriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AriTests.swift; sourceTree = "<group>"; };
@@ -176,7 +174,6 @@
 				C2CB1C841AAB277C00932155 /* Views */,
 				C2CB1C831AAB276F00932155 /* Cell */,
 				C293EAA71AAB16800047E172 /* Images.xcassets */,
-				C293EAA91AAB16800047E172 /* LaunchScreen.xib */,
 				C293EA9E1AAB16800047E172 /* Supporting Files */,
 			);
 			path = Ari;
