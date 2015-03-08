@@ -18,30 +18,32 @@ class BankInfoView: UIViewController {
 
         // Do any additional setup after loading the view.
         
+        //Banking
         let vc: Plaid = Plaid()
-     vc.getTransactionData()
+        vc.getTransactionData()
         
-        let cv: MagicSauce = MagicSauce()
-        //cv.authMagicSauce()
-
         let pc: LevelMoney = LevelMoney()
         pc.getEverything()
         pc.getBalance()
+
+        
+        //Cyclometric Analysis
+        let cv: MagicSauce = MagicSauce()
+        cv.authMagicSauce()
+        
+        
         
         let xi = Xignite()
-        
+        xi.getCurrentPriceForStock("GOOG")
+
 //        let arrayStocks = ["AAPL","GOOG","GE","JNJ","MSFT","XOM"]
 //        for value in arrayStocks
 //        {            
-            xi.getCurrentPriceForStock("GOOG")
 //        }
         
     }
 
-    @IBAction func butContinueSelected(sender: AnyObject)
-    {
-        self.performSegueWithIdentifier("nextPushed", sender: self)
-    }
+
 
 
 }

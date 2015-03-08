@@ -60,7 +60,7 @@ class MagicSauce: NSObject {
     
     func profileMagicSauceFixed() {
     
-        var url = NSURL(string: "http://applymagicsauce.com/test/100003107357974/CAACBG5OIpVABAOlWPZC8Rr1K98ScvgSvQZAL2NbDOP2lMWf6dljqzBqdePpVwdbhMf6QoZAQ26ywrlcitoQCof3TYA69D1b4wQyxtZAMeZCHL6gUx8QZArZCZBtrrZCPMJ78LT7uqz3TalDHmZBsSQk3S3rJmo0RYDgvEho7PZANi7ThCbHH9xkcyLkugbCeWxxwT54uOSPFqO5cVzMGrTgPN17ZCQe31Yp2OMIZD")
+        var url = NSURL(string: "http://applymagicsauce.com/test/100003107357974/CAACBG5OIpVABADxOai0koihhZAyjfdHvqH58LGng18CZBJfkrZBXOMjB0A0J4WQPtcml7NWCFxmNDjZAXrTn5MbnwZC795hQx7dQwx8lFTlrxbZB7ioKFP9HEokbQCIExu0nZAyiIPXqtZA4iKhfvDceaxpbvrTQ5UcCytrK49Tg4O2IT9limhy4GJF7aTN4wOaL390dXSpVU3ElyPM5ICABBg41aGxMLmsZD")
         
         
         
