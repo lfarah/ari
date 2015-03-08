@@ -10,6 +10,7 @@ import UIKit
 
 class InvestmentQuestionsView: UIViewController,UITableViewDataSource,UITableViewDelegate {
 
+    
     @IBOutlet weak var tableview: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()

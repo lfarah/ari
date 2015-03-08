@@ -11,11 +11,28 @@
 		18DD366F1AAB795C007ECE24 /* Plaid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD366D1AAB795C007ECE24 /* Plaid.swift */; };
 		C2088D711AAC16C9004968FA /* Xignite.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2088D701AAC16C9004968FA /* Xignite.swift */; };
 		C2088D731AAC4679004968FA /* waterfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2088D721AAC4679004968FA /* waterfall.swift */; };
+		C2261FD01AACAFE1004AB5E8 /* SavingGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2261FCF1AACAFE1004AB5E8 /* SavingGoalsViewController.swift */; };
+		C2261FD21AACB1AE004AB5E8 /* Tick-mark-icon-png-6619 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2261FD11AACB1AE004AB5E8 /* Tick-mark-icon-png-6619 2@2x.png */; };
+		C2261FD41AACB5A4004AB5E8 /* 5C 8.png in Resources */ = {isa = PBXBuildFile; fileRef = C2261FD31AACB5A4004AB5E8 /* 5C 8.png */; };
+		C2261FD61AACB750004AB5E8 /* 5C 11.png in Resources */ = {isa = PBXBuildFile; fileRef = C2261FD51AACB750004AB5E8 /* 5C 11.png */; };
+		C2261FD81AACB7A4004AB5E8 /* 5C 10.png in Resources */ = {isa = PBXBuildFile; fileRef = C2261FD71AACB7A4004AB5E8 /* 5C 10.png */; };
+		C2261FDA1AACB7FA004AB5E8 /* 5C 14.png in Resources */ = {isa = PBXBuildFile; fileRef = C2261FD91AACB7FA004AB5E8 /* 5C 14.png */; };
+		C2261FDC1AACB8F1004AB5E8 /* 5C 18.png in Resources */ = {isa = PBXBuildFile; fileRef = C2261FDB1AACB8F1004AB5E8 /* 5C 18.png */; };
+		C2261FDE1AACB963004AB5E8 /* 5C 17.png in Resources */ = {isa = PBXBuildFile; fileRef = C2261FDD1AACB963004AB5E8 /* 5C 17.png */; };
+		C2261FE01AACB99C004AB5E8 /* 5C 13.png in Resources */ = {isa = PBXBuildFile; fileRef = C2261FDF1AACB99C004AB5E8 /* 5C 13.png */; };
+		C2261FE21AACB9D9004AB5E8 /* 5C 15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2261FE11AACB9D9004AB5E8 /* 5C 15@2x.png */; };
+		C2261FE41AACBC73004AB5E8 /* SavingGoalsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2261FE31AACBC73004AB5E8 /* SavingGoalsCell.swift */; };
+		C2261FE61AACC162004AB5E8 /* BalanceGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2261FE51AACC162004AB5E8 /* BalanceGraphViewController.swift */; };
+		C2261FE81AACCD8E004AB5E8 /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2261FE71AACCD8E004AB5E8 /* HelloViewController.swift */; };
 		C293EAA11AAB16800047E172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293EAA01AAB16800047E172 /* AppDelegate.swift */; };
 		C293EAA61AAB16800047E172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C293EAA41AAB16800047E172 /* Main.storyboard */; };
 		C293EAA81AAB16800047E172 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C293EAA71AAB16800047E172 /* Images.xcassets */; };
 		C293EAAB1AAB16800047E172 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C293EAA91AAB16800047E172 /* LaunchScreen.xib */; };
 		C293EAB71AAB16800047E172 /* AriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293EAB61AAB16800047E172 /* AriTests.swift */; };
+		C2BB60881AACAB6F00D9C57F /* 5C 4.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BB60871AACAB6F00D9C57F /* 5C 4.png */; };
+		C2BB608A1AACAE0A00D9C57F /* 5C 5.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BB60891AACAE0A00D9C57F /* 5C 5.png */; };
+		C2BB608C1AACAEB800D9C57F /* 5C 6.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BB608B1AACAEB800D9C57F /* 5C 6.png */; };
+		C2BB608E1AACAF3A00D9C57F /* 5C 7.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BB608D1AACAF3A00D9C57F /* 5C 7.png */; };
 		C2CB1C7C1AAB1D2B00932155 /* BankInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1C7B1AAB1D2B00932155 /* BankInfoView.swift */; };
 		C2CB1C7E1AAB1D4900932155 /* finPlanPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1C7D1AAB1D4900932155 /* finPlanPickerView.swift */; };
 		C2CB1C801AAB25CC00932155 /* InvestmentQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1C7F1AAB25CC00932155 /* InvestmentQuestionsView.swift */; };
@@ -38,6 +55,19 @@
 		18DD366D1AAB795C007ECE24 /* Plaid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plaid.swift; sourceTree = "<group>"; };
 		C2088D701AAC16C9004968FA /* Xignite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Xignite.swift; sourceTree = "<group>"; };
 		C2088D721AAC4679004968FA /* waterfall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = waterfall.swift; sourceTree = "<group>"; };
+		C2261FCF1AACAFE1004AB5E8 /* SavingGoalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavingGoalsViewController.swift; sourceTree = "<group>"; };
+		C2261FD11AACB1AE004AB5E8 /* Tick-mark-icon-png-6619 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tick-mark-icon-png-6619 2@2x.png"; sourceTree = "<group>"; };
+		C2261FD31AACB5A4004AB5E8 /* 5C 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5C 8.png"; sourceTree = "<group>"; };
+		C2261FD51AACB750004AB5E8 /* 5C 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5C 11.png"; sourceTree = "<group>"; };
+		C2261FD71AACB7A4004AB5E8 /* 5C 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5C 10.png"; sourceTree = "<group>"; };
+		C2261FD91AACB7FA004AB5E8 /* 5C 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5C 14.png"; sourceTree = "<group>"; };
+		C2261FDB1AACB8F1004AB5E8 /* 5C 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5C 18.png"; sourceTree = "<group>"; };
+		C2261FDD1AACB963004AB5E8 /* 5C 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5C 17.png"; sourceTree = "<group>"; };
+		C2261FDF1AACB99C004AB5E8 /* 5C 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5C 13.png"; sourceTree = "<group>"; };
+		C2261FE11AACB9D9004AB5E8 /* 5C 15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5C 15@2x.png"; sourceTree = "<group>"; };
+		C2261FE31AACBC73004AB5E8 /* SavingGoalsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavingGoalsCell.swift; sourceTree = "<group>"; };
+		C2261FE51AACC162004AB5E8 /* BalanceGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceGraphViewController.swift; sourceTree = "<group>"; };
+		C2261FE71AACCD8E004AB5E8 /* HelloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
 		C293EA9B1AAB16800047E172 /* Ari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C293EA9F1AAB16800047E172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C293EAA01AAB16800047E172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +77,10 @@
 		C293EAB01AAB16800047E172 /* AriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C293EAB51AAB16800047E172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C293EAB61AAB16800047E172 /* AriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AriTests.swift; sourceTree = "<group>"; };
+		C2BB60871AACAB6F00D9C57F /* 5C 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5C 4.png"; sourceTree = "<group>"; };
+		C2BB60891AACAE0A00D9C57F /* 5C 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5C 5.png"; sourceTree = "<group>"; };
+		C2BB608B1AACAEB800D9C57F /* 5C 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5C 6.png"; sourceTree = "<group>"; };
+		C2BB608D1AACAF3A00D9C57F /* 5C 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5C 7.png"; sourceTree = "<group>"; };
 		C2CB1C7B1AAB1D2B00932155 /* BankInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankInfoView.swift; sourceTree = "<group>"; };
 		C2CB1C7D1AAB1D4900932155 /* finPlanPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = finPlanPickerView.swift; sourceTree = "<group>"; };
 		C2CB1C7F1AAB25CC00932155 /* InvestmentQuestionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestmentQuestionsView.swift; sourceTree = "<group>"; };
@@ -78,6 +112,19 @@
 				C293EA9D1AAB16800047E172 /* Ari */,
 				C293EAB31AAB16800047E172 /* AriTests */,
 				C293EA9C1AAB16800047E172 /* Products */,
+				C2BB60871AACAB6F00D9C57F /* 5C 4.png */,
+				C2BB60891AACAE0A00D9C57F /* 5C 5.png */,
+				C2BB608B1AACAEB800D9C57F /* 5C 6.png */,
+				C2BB608D1AACAF3A00D9C57F /* 5C 7.png */,
+				C2261FD11AACB1AE004AB5E8 /* Tick-mark-icon-png-6619 2@2x.png */,
+				C2261FD31AACB5A4004AB5E8 /* 5C 8.png */,
+				C2261FD51AACB750004AB5E8 /* 5C 11.png */,
+				C2261FD71AACB7A4004AB5E8 /* 5C 10.png */,
+				C2261FD91AACB7FA004AB5E8 /* 5C 14.png */,
+				C2261FDB1AACB8F1004AB5E8 /* 5C 18.png */,
+				C2261FDD1AACB963004AB5E8 /* 5C 17.png */,
+				C2261FDF1AACB99C004AB5E8 /* 5C 13.png */,
+				C2261FE11AACB9D9004AB5E8 /* 5C 15@2x.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +142,10 @@
 			children = (
 				C293EAA01AAB16800047E172 /* AppDelegate.swift */,
 				C293EAA41AAB16800047E172 /* Main.storyboard */,
+				C2261FE71AACCD8E004AB5E8 /* HelloViewController.swift */,
+				C2261FE51AACC162004AB5E8 /* BalanceGraphViewController.swift */,
+				C2261FE31AACBC73004AB5E8 /* SavingGoalsCell.swift */,
+				C2261FCF1AACAFE1004AB5E8 /* SavingGoalsViewController.swift */,
 				C2BB60861AAC701100D9C57F /* Code */,
 				C2CB1C841AAB277C00932155 /* Views */,
 				C2CB1C831AAB276F00932155 /* Cell */,
@@ -240,9 +291,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2261FD61AACB750004AB5E8 /* 5C 11.png in Resources */,
+				C2261FD81AACB7A4004AB5E8 /* 5C 10.png in Resources */,
+				C2261FD41AACB5A4004AB5E8 /* 5C 8.png in Resources */,
 				C293EAA61AAB16800047E172 /* Main.storyboard in Resources */,
+				C2261FDE1AACB963004AB5E8 /* 5C 17.png in Resources */,
 				C293EAAB1AAB16800047E172 /* LaunchScreen.xib in Resources */,
+				C2261FE01AACB99C004AB5E8 /* 5C 13.png in Resources */,
+				C2261FE21AACB9D9004AB5E8 /* 5C 15@2x.png in Resources */,
+				C2261FD21AACB1AE004AB5E8 /* Tick-mark-icon-png-6619 2@2x.png in Resources */,
+				C2BB608A1AACAE0A00D9C57F /* 5C 5.png in Resources */,
+				C2BB608C1AACAEB800D9C57F /* 5C 6.png in Resources */,
 				C293EAA81AAB16800047E172 /* Images.xcassets in Resources */,
+				C2261FDC1AACB8F1004AB5E8 /* 5C 18.png in Resources */,
+				C2261FDA1AACB7FA004AB5E8 /* 5C 14.png in Resources */,
+				C2BB60881AACAB6F00D9C57F /* 5C 4.png in Resources */,
+				C2BB608E1AACAF3A00D9C57F /* 5C 7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +326,14 @@
 			files = (
 				C2CB1C7C1AAB1D2B00932155 /* BankInfoView.swift in Sources */,
 				C2CB1C821AAB276500932155 /* InvestmentQuestionsCell.swift in Sources */,
+				C2261FE61AACC162004AB5E8 /* BalanceGraphViewController.swift in Sources */,
 				18DD366F1AAB795C007ECE24 /* Plaid.swift in Sources */,
 				C2CB1C881AABAEF800932155 /* LevelMoney.swift in Sources */,
 				C2CB1C801AAB25CC00932155 /* InvestmentQuestionsView.swift in Sources */,
 				C293EAA11AAB16800047E172 /* AppDelegate.swift in Sources */,
+				C2261FE41AACBC73004AB5E8 /* SavingGoalsCell.swift in Sources */,
+				C2261FD01AACAFE1004AB5E8 /* SavingGoalsViewController.swift in Sources */,
+				C2261FE81AACCD8E004AB5E8 /* HelloViewController.swift in Sources */,
 				C2088D731AAC4679004968FA /* waterfall.swift in Sources */,
 				C2088D711AAC16C9004968FA /* Xignite.swift in Sources */,
 				C2CB1C7E1AAB1D4900932155 /* finPlanPickerView.swift in Sources */,

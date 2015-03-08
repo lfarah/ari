@@ -19,14 +19,14 @@ class BankInfoView: UIViewController {
         // Do any additional setup after loading the view.
         
         let vc: Plaid = Plaid()
-//     vc.getTransactionData()
+     vc.getTransactionData()
         
         let cv: MagicSauce = MagicSauce()
         //cv.authMagicSauce()
 
         let pc: LevelMoney = LevelMoney()
-//        pc.getEverything()
-//        pc.getBalance()
+        pc.getEverything()
+        pc.getBalance()
         
         let xi = Xignite()
         
