@@ -42,11 +42,13 @@ class ProfileViewController: UIViewController {
         let q = Int(agreeableness*100)
         let a = Int(extraversion*100)
 
-//        p1 = ("\Int(opennes*100))")
-//        p2 = ("\Int(neuroticism*100))")
-//        p3 = ("\Int(conscientiousness*100))")
-//        p4= ("\Int(agreeableness*100))")
-//        p5= ("\Int(extraversion*100))")
+        p1.text = ("\(i)")
+        p2.text = ("\(j)")
+        p3.text = ("\(p)")
+        p4.text = ("\(q)")
+        p5.text = ("\(a)")
+
+
     }
 
     override func didReceiveMemoryWarning() {
