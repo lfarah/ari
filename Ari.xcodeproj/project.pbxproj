@@ -18,6 +18,7 @@
 		C2CB1C7E1AAB1D4900932155 /* finPlanPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1C7D1AAB1D4900932155 /* finPlanPickerView.swift */; };
 		C2CB1C801AAB25CC00932155 /* InvestmentQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1C7F1AAB25CC00932155 /* InvestmentQuestionsView.swift */; };
 		C2CB1C821AAB276500932155 /* InvestmentQuestionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1C811AAB276500932155 /* InvestmentQuestionsCell.swift */; };
+		C2CB1C881AABAEF800932155 /* LevelMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1C871AABAEF800932155 /* LevelMoney.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		C2CB1C7D1AAB1D4900932155 /* finPlanPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = finPlanPickerView.swift; sourceTree = "<group>"; };
 		C2CB1C7F1AAB25CC00932155 /* InvestmentQuestionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestmentQuestionsView.swift; sourceTree = "<group>"; };
 		C2CB1C811AAB276500932155 /* InvestmentQuestionsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestmentQuestionsCell.swift; sourceTree = "<group>"; };
+		C2CB1C871AABAEF800932155 /* LevelMoney.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelMoney.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			children = (
 				18DD366C1AAB795C007ECE24 /* MagicSauce.swift */,
 				18DD366D1AAB795C007ECE24 /* Plaid.swift */,
+				C2CB1C871AABAEF800932155 /* LevelMoney.swift */,
 				C2CB1C7B1AAB1D2B00932155 /* BankInfoView.swift */,
 				C2CB1C7D1AAB1D4900932155 /* finPlanPickerView.swift */,
 				C2CB1C7F1AAB25CC00932155 /* InvestmentQuestionsView.swift */,
@@ -246,6 +249,7 @@
 				C2CB1C7C1AAB1D2B00932155 /* BankInfoView.swift in Sources */,
 				C2CB1C821AAB276500932155 /* InvestmentQuestionsCell.swift in Sources */,
 				18DD366F1AAB795C007ECE24 /* Plaid.swift in Sources */,
+				C2CB1C881AABAEF800932155 /* LevelMoney.swift in Sources */,
 				C2CB1C801AAB25CC00932155 /* InvestmentQuestionsView.swift in Sources */,
 				C293EAA11AAB16800047E172 /* AppDelegate.swift in Sources */,
 				C2CB1C7E1AAB1D4900932155 /* finPlanPickerView.swift in Sources */,

@@ -52,13 +52,25 @@ class Plaid: NSObject {
                 
             } else {
                 var jsonError: NSError?
-                println(data)
+
                 if let json = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: &jsonError) as? NSDictionary {
                     // this code is executed if the json is a NSDictionary
                     println(json)
+                    let array = json["accounts"] as NSArray
+                    
+                    for (var i=0;i<array.count;i++)
+                    {
+                        let dic = array[i]["meta"] as NSDictionary
+                        print(dic["name"] as NSString)
+                        let dic3 = array[i]["balance"] as NSDictionary
+                        
+                        print(" - ")
+                        println(dic3["available"] as Double)
+                    }
+                    
                 } else {
                     // otherwise, this code is executed
-                    println("shit")
+                 //   println("shit")
                 }
                 
                 
@@ -93,7 +105,7 @@ class Plaid: NSObject {
                 var jsonError: NSError?
                 if let json = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: &jsonError) as? NSDictionary {
                     // this code is executed if the json is a NSDictionary
-                    //println(json)
+            //        println(json)
                     
                     let array = json["transactions"] as NSArray
                     let arrayIncomes = NSMutableArray()
@@ -122,33 +134,37 @@ class Plaid: NSObject {
                         
                     }
                     
-                    println("------------ INCOMES ----------")
-                    for (var j=0;j<arrayIncomes.count;j++)
-                    {
-                        print(arrayIncomes[j]["name"] as NSString)
-                        print(" : ")
-                        println(arrayIncomes[j]["amount"] as Double)
-                    }
+//                    println("------------ INCOMES ----------")
+//                    for (var j=0;j<arrayIncomes.count;j++)
+//                    {
+//                        print(arrayIncomes[j]["name"] as NSString)
+//                        print(" : ")
+//                        println(arrayIncomes[j]["amount"] as Double)
+//                    }
+//                    
+//                    println("")
+//                    
+//                    println("Final amount: $\(-totalIncomes)")
+//                    
+//                    
+//                    println("------------ OUTCOMES ----------")
+//                    for (var g=0;g<arrayOutcomes.count;g++)
+//                    {
+//                        print(arrayOutcomes[g]["name"] as NSString)
+//                        print(" : ")
+//                        println(arrayOutcomes[g]["amount"] as Double)
+//                    }
                     
-                    println("")
+                   // println("")
+                  //  println("Final amount: -$\(totalOutcomes)")
                     
-                    println("Final amount: $\(-totalIncomes)")
+                    println("------------ Savings?!? ----------")
+                    println("$\(-totalIncomes-totalOutcomes) left (Savings?!?!?)")
+                    let savings = -totalIncomes-totalOutcomes
                     
-                    
-                    println("------------ OUTCOMES ----------")
-                    for (var g=0;g<arrayOutcomes.count;g++)
-                    {
-                        print(arrayOutcomes[g]["name"] as NSString)
-                        print(" : ")
-                        println(arrayOutcomes[g]["amount"] as Double)
-                    }
-                    
-                    println("")
-                    println("Final amount: -$\(totalOutcomes)")
-                    
-                    println("------------ Savings ----------")
-                    println("$\(-totalIncomes-totalOutcomes) to save")
-                    println("$\((-totalIncomes-totalOutcomes)*0.2) to invest")
+                    NSUserDefaults.standardUserDefaults().setDouble(savings, forKey: "savings")
+                    NSUserDefaults.standardUserDefaults().synchronize()
+                  //  println("$\((-totalIncomes-totalOutcomes)*0.2) to invest")
 
                     
                     //  println(array)
