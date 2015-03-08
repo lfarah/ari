@@ -342,7 +342,7 @@ class StocksViewController: UIViewController {
     
     func get30DaysAgoPriceForStock4(stock: NSString)
     {
-        let request = NSMutableURLRequest(URL: NSURL(string: "http://www.xignite.com/xGlobalHistorical.json/GetEndOfDayQuote?")!)
+        let request = NSMutableURLRequest(URL: NSURL(string: "http://www.xignite.com/xGlobalHistor  ical.json/GetEndOfDayQuote?")!)
         request.HTTPMethod = "POST"
         let postString = "IdentifierType=Symbol&Identifier=\(stock)&AdjustmentMethod=SplitOnly&EndOfDayPriceMethod=LastTrade&AsOfDate=02/6/2015&_Token=E208B2F5497C4880B593EBFC90856142"
         request.HTTPBody = postString.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: true)
